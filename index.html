@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Proyecto Final</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
         <div class ="container">
@@ -23,7 +27,7 @@
                 </div>
             </header>
 
-            <section class="hero-section">
+            <section class="hero-section autoBlur">
                 <div class="hero-vid">
                     <video loop autoplay muted plays-inline class="hero-video">
                         <source src="videos/hero-1.mp4" type="video/mp4">
@@ -42,13 +46,16 @@
                 </div>
             </section>
 
-            <section class="about-section">
+            <section id="about" class="about-section">
                 <p>Welcome to Zentry</p>
-                <h1>DISCOVER THE WORLDS LARGEST SHARED ADVENTURE</h1>
-
-                <div class="image-box">
-                    <img src="img/about.webp" alt="about-img">
+                <div class="autoBlur">
+                    <h1>DISCOVER THE WORLDS LARGEST SHARED ADVENTURE</h1>
                 </div>
+
+                <div class="image-box autoTakeFull">
+                    <img src="img/about.webp" alt="about-image">
+                </div>
+
                 <h4>Game of game begins ur life, now an epic MMORPG </h4>
                 <h5>Zentry unites every player from countless games and platforms, both digital and physical</h5>
             </section>
@@ -59,7 +66,7 @@
 
                 <div class="info-cards">
 
-                    <div class="card">
+                    <div class="card autoDisplay">
                     <h1>RADIANT</h1>
                     <p>An anime and gaming inspo NFT expansion</p>
 
@@ -67,7 +74,7 @@
                     <button>COMING SOON</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card autoDisplay">
                     <h1>ZIGMA</h1>
                     <p>An anime and gaming inspo NFT expansion</p>
     
@@ -75,7 +82,7 @@
                     <button>COMING SOON</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card autoDisplay">
                     <h1>NEXUS</h1>
                     <p>An anime and gaming inspo NFT expansion</p>
         
@@ -83,7 +90,7 @@
                     <button>COMING SOON</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card autoDisplay">
                     <h1>AZUL</h1>
                     <p>An anime and gaming inspo NFT expansion</p>
             
@@ -91,11 +98,11 @@
                     <button>COMING SOON</button>
                     </div>
 
-                    <div class="card">
+                    <div class="card autoDisplay">
                     <video src="videos/feature-5.mp4" autoplay loop muted plays-inline></video>
                     </div>
 
-                    <div class="card">
+                    <div class="card autoDisplay">
                         <h1>MORE COMING SOON</h1>
                     </div>
                 </div>
@@ -103,11 +110,24 @@
 
             <section class="contact-section">
                 <p>Join Zentry</p>
-                <h1>LETS BUILD THE NEW ERA OF GAMING TOGETHER</h1>
+                <div class="autoBlur">
+                    <h1>LETS BUILD THE NEW ERA OF GAMING TOGETHER</h1>
+                </div>
                 <button>CONTACT US</button>
                 <img class="img1" src="img/swordman.webp" alt="contact-img">
                 <img class="img2" src="img/contact-1.webp" alt="contact-img">
                 <img class="img3" src="img/contact-2.webp" alt="contact-img">
+            </section>
+
+            <section class="footer">
+                <p>Nova 2025 all rights reserved</p>
+                <ul>
+                    <li><a href="#"><i class='bx  bx-message-circle-heart' ></i></a></li>
+                    <li><a href="#"><i class='bx  bx-music-alt'  ></i></a></li>
+                    <li><a href="#"><i class='bx  bx-camera'  ></i> </a></li>
+                    <li><a href="#"><i class='bx  bx-git-branch'  ></i> </a></li>
+                </ul>
+                <p>Privacy Policy</p>
             </section>
         </div>
 
